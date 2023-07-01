@@ -1,0 +1,64 @@
+.parent{
+  min-width: 100vw;
+  background-color: aliceblue;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.parent ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.parent ul li{
+  padding: 10px;
+  list-style: none;
+}
+.parent ul li a{
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: brown;
+}
+.sideMenu{
+  /* width: 100px; */
+  height: 100vh;
+  /* background-color: aliceblue; */
+}
+.sidemenuandpagecontent{
+  display: flex;
+  flex: 2;
+  /* background-color: rgb(0, 0, 0, 0.15); */
+  /* padding: 10px; */
+}
+.customers{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+.h1{
+  font-size: 20px;
+  font-weight: bold;
+}
+.foter1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex: 3; */
+  margin-top: 10px;
+  /* background-color: red; */
+  width: 800px;
+  /* padding: 20px; */
+  font-size: 30px;
+  margin-left: 20px;
+}
+.sideMenuvertical{
+  height: 100%;
+}
+.sideMenu{height: 100%;}
